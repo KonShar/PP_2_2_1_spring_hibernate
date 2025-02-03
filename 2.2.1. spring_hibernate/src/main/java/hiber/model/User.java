@@ -18,7 +18,7 @@ public class User {
    @Column(name = "email")
    private String email;
 
-   @OneToOne()
+   @OneToOne
    @MapsId
    private Car car;
 
